@@ -1,0 +1,62 @@
+body {
+  background: #4286f4;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+header, main {
+  min-width: 855px;
+}
+
+
+.main {
+    margin: auto;
+    padding: 30px 10px 30px 10px;
+    border-radius: 0 5px 5px 5px;
+    background: #eee;
+} 
+
+.main h1 {
+
+  text-align: center;
+  color: #9933ff;
+}
+
+
+.actual {
+  max-width: 50%;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+
+.about {
+  /*We can't have nested selectors; thus we can only ever refer to something by class*/
+  text-align: center;
+  border: solid;
+  border-width: 5px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 0 5px 5px 5px;
+}
+
+.about ul {
+  color: #111132;
+  border: solid;
+  padding-top: 10px;
+}
+
+footer {
+  text-align: center;
+  max-width: 50%;
+  margin: auto;
+  padding-top: 15%;
+
+}
+
+.extra {
+  text-align: center;
+  max-width: 50%;
+  margin: auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
