@@ -60,6 +60,7 @@ header, dropdown-menu {
   margin: auto;
   padding-top: 10px;
   padding-bottom: 100px;
+
 }
 
 .actual ul{
@@ -75,11 +76,14 @@ header, dropdown-menu {
   padding: 5px 5px 5px 5px;
   border-radius: 0 5px 5px 5px;
   font-size: 2em;
+  font-family: 'Lato';
 }
 
 .content {
 
   text-align: left;
+  font-family: 'Droid Sans';
+  letter-spacing: 0.05em;
 }
 
 .about ul {
