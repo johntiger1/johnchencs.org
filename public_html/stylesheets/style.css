@@ -3,19 +3,20 @@ body {
   font-family: 'Droid Sans', sans-serif;
 }
 
-header, main {
+header, dropdown-menu {
   min-width: 855px;
 }
 
 
-.main {
+.dropdown-menu {
     margin: auto;
     padding: 30px 10px 30px 10px;
     border-radius: 0 5px 5px 5px;
     background: #eee;
+    text-align: center;
 } 
 
-.main h1 {
+.dropdown-menu h1 {
 
   text-align: center;
   color: #9933ff;
@@ -30,6 +31,11 @@ header, main {
   padding-bottom: 100px;
 }
 
+.actual ul{
+  text-align: left;
+
+}
+
 .about {
   /*We can't have nested selectors; thus we can only ever refer to something by class*/
   text-align: center;
@@ -37,6 +43,12 @@ header, main {
   border-width: 5px;
   padding: 5px 5px 5px 5px;
   border-radius: 0 5px 5px 5px;
+  font-size: 2em;
+}
+
+.content {
+
+  text-align: left;
 }
 
 .about ul {
