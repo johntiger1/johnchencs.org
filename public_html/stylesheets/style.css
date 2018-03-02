@@ -4,6 +4,7 @@
 body {
   background: #4286f4;
   font-family: 'Droid Sans', sans-serif;
+  display: inline-block;
 }
 
 header, dropdown-menu {
@@ -60,7 +61,14 @@ header, dropdown-menu {
   margin: auto;
   padding-top: 10px;
   padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
 
+}
+
+.image-container {
+  /*margin: auto;*/
+  margin:0 auto;
 }
 
 .actual ul{
@@ -112,3 +120,18 @@ footer {
   padding-top: 25px;
   padding-bottom: 10%;
 }
+
+figure {
+    display: table;
+    text-align: center;
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+}
+
+/*#fig_container{*/
+    /*display: inline-block;*/
+    /*text-align: center;*/
+/*}*/
