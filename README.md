@@ -1,6 +1,8 @@
 # johnchencs.org
 repo for website
 
+july 18
+public_html is where the real work goes
 
 Consider putting side projects as icons across the top...
 
